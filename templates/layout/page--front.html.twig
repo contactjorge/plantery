@@ -43,15 +43,7 @@
  * @ingroup themeable
  */
 #}
-
 	{{ page.top_navbar }}
-
-	{{ page.primary_menu }}
-
-
-<section class="container-fluid header-slider">
-	{{ page.slider }}
-</section>
 
 	{{ page.header }}
 
@@ -61,14 +53,14 @@
 	</section>
 {% endif %}
 
+{{ page.primary_menu }}
 
-	{{ page.subheader }}
-
-{{ page.secondary_menu }}
+{{ page.subheader }}
 
 {{ page.highlighted }}
 
 <main role="main" class="container">
+	{{ page.secondary_menu }}
 	<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
 	<article class="row layout-content">

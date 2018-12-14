@@ -62,8 +62,8 @@ nav#toolbar-administration {margin-bottom: 1rem;}
 
 /*** BLOCKS ***/
 .header-top {
-	background: url("../images/background-calm-clouds-747964-top5.jpg");
-	height: 29rem;
+	background: url("../images/background-calm-clouds-747964-top4a.jpg");
+	height: 35rem;
 	width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -73,8 +73,8 @@ nav#toolbar-administration {margin-bottom: 1rem;}
 }
 
 .header-btm {
-	background: url("../images/background-calm-clouds-747964-btm5.jpg");
-	height: 29rem;
+	background: url("../images/background-calm-clouds-747964-btm4a.jpg");
+	height: 28rem;
 	width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -89,12 +89,24 @@ nav#toolbar-administration {margin-bottom: 1rem;}
 @media only screen and (max-width : 1200px) {
 	/* Styles */
 	.header-top {
-		background: url("../images/background-calm-clouds-747964-top5.jpg");
-		height: 29rem;
+		background: url("../images/background-calm-clouds-747964-top4a.jpg");
+		height: 35rem;
 	}
 	.header-btm {
-		background: url("../images/background-calm-clouds-747964-btm5.jpg");
-		height: 29rem;
+		background: url("../images/background-calm-clouds-747964-btm4a.jpg");
+		height: 28rem;
+	}
+}
+
+@media only screen and (max-width : 1080px) {
+	/* Styles */
+	.header-top {
+		background: url("../images/background-calm-clouds-747964-top4b.jpg");
+		height: 32rem;
+	}
+	.header-btm {
+		background: url("../images/background-calm-clouds-747964-btm4b.jpg");
+		height: 27rem;
 	}
 }
 
@@ -108,11 +120,11 @@ nav#toolbar-administration {margin-bottom: 1rem;}
 	h6 {font-size: 0.90rem;}
 	/* Styles */
 	.header-top {
-		background: url("../images/background-calm-clouds-747964-top5c.jpg") !important;
-		height: 26rem;
+		background: #FFF;
+		height: 18rem;
 	}
 	.header-btm {
-		background: url("../images/background-calm-clouds-747964-btm5c.jpg") !important;
+		background: url("../images/background-calm-clouds-747964-btm4c.jpg") !important;
 		height: 26rem;
 	}
 }
@@ -128,12 +140,12 @@ nav#toolbar-administration {margin-bottom: 1rem;}
 	h6 {font-size: 0.80rem;}
 	/* Styles */
 	.header-top {
-		background: url("../images/background-calm-clouds-747964-top5d.jpg") !important;
-		height: 23rem;
+		background: #FFF;
+		height: 18rem;
 	}
 	.header-btm {
-		background: url("../images/background-calm-clouds-747964-btm5d.jpg") !important;
-		height: 23rem;
+		background: url("../images/background-calm-clouds-747964-btm4d.jpg") !important;
+		height: 24rem;
 	}
 }
 

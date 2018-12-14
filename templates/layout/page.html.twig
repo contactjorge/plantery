@@ -46,26 +46,13 @@
 
 {{ page.top_navbar }}
 
+{{ page.subheader }}
+
 {{ page.primary_menu }}
 
-<section class="header-slider">
-	{{ page.slider }}
-</section>
-
-	{{ page.header }}
-
-{% if page.featured_top %}
-	<section class="container">
-		{{ page.featured_top }}
-	</section>
-{% endif %}
-
-	{{ page.subheader }}
-
+{{ page.highlighted }}
 
 {{ page.secondary_menu }}
-
-{{ page.highlighted }}
 
 <main role="main" class="container">
 	<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
@@ -75,6 +62,12 @@
 	</article>{# /.layout-content #}
 
 </main>
+
+{% if page.featured_top %}
+	<section class="container">
+		{{ page.featured_top }}
+	</section>
+{% endif %}
 
 {% if page.featured_bottom %}
 	<section class="container layout-featured-bottom" role="complementary">

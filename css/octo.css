@@ -470,10 +470,8 @@ ul.simple-post-list .post-meta {
 }
 
 .navbar-main .nav {
-	margin-top: 12px;
-	float: right;
+	float: left;
 	position: relative;
-	margin-right: 36px;
 }
 @media (max-width: 48em) {
 	.navbar-main .nav {
