@@ -1,0 +1,167 @@
+/*** BASE ***/
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+body {
+	font-family: "Helvetica Neue",Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 16px;
+	margin: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+header {}
+footer {}
+main {}
+section {}
+article {}
+aside {}
+h1 {font-size: 2.0rem;}
+h2 {font-size: 1.75rem;}
+h3 {font-size: 1.50rem;}
+h4 {font-size: 1.25rem;}
+h5 {font-size: 1.125rem;}
+h6 {font-size: 1.00rem;}
+p {font-size: 16px;}
+
+
+
+/*** Components
+nav#toolbar-administration {margin-bottom: 1rem;}
+#toolbar-administration {margin-bottom: 1rem;}
+ ***/
+
+/*** COMPONENTS ***/
+.icons {
+	font-size: 64px;
+	text-align: center;
+	color: #4694BB;
+}
+#cc-icons-header{
+	text-align: center;
+}
+
+/** NavBar **/
+.navbar-ccs{
+	background-color: #fffffe;
+	background-repeat: repeat-x;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+	border-color: #e7e7e7;
+}
+
+/* Page Top */
+.page-top {
+	padding: 16px 0;
+	position: relative;
+	text-align: center;
+}
+
+
+/*** BLOCKS ***/
+.header-top {
+	background: url("../images/background-calm-clouds-747964-top5.jpg");
+	height: 29rem;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.header-btm {
+	background: url("../images/background-calm-clouds-747964-btm5.jpg");
+	height: 29rem;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+/*** MEDIA ***/
+
+@media only screen and (max-width : 1200px) {
+	/* Styles */
+	.header-top {
+		background: url("../images/background-calm-clouds-747964-top5.jpg");
+		height: 29rem;
+	}
+	.header-btm {
+		background: url("../images/background-calm-clouds-747964-btm5.jpg");
+		height: 29rem;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+	/*** Base Changes ***/
+	h1 {font-size: 1.75rem;}
+	h2 {font-size: 1.50rem;}
+	h3 {font-size: 1.25rem;}
+	h4 {font-size: 1.10rem;}
+	h5 {font-size: 1.00rem;}
+	h6 {font-size: 0.90rem;}
+	/* Styles */
+	.header-top {
+		background: url("../images/background-calm-clouds-747964-top5c.jpg") !important;
+		height: 26rem;
+	}
+	.header-btm {
+		background: url("../images/background-calm-clouds-747964-btm5c.jpg") !important;
+		height: 26rem;
+	}
+}
+
+
+@media only screen and (max-width : 600px) {
+	/*** Base Changes ***/
+	h1 {font-size: 1.50rem;}
+	h2 {font-size: 1.25rem;}
+	h3 {font-size: 1.15rem;}
+	h4 {font-size: 1.00rem;}
+	h5 {font-size: 0.90rem;}
+	h6 {font-size: 0.80rem;}
+	/* Styles */
+	.header-top {
+		background: url("../images/background-calm-clouds-747964-top5d.jpg") !important;
+		height: 23rem;
+	}
+	.header-btm {
+		background: url("../images/background-calm-clouds-747964-btm5d.jpg") !important;
+		height: 23rem;
+	}
+}
+
+
+/* Header */
+.headernav {
+	background: #FFFFFF;
+	border-bottom: 1px solid #e5e5e5;
+	position: relative;
+	z-index: 200;
+}
+
+/* Header Top */
+.headernav-top {
+	height: 30px;
+	border-bottom: 1px solid #EBEBEB;
+	border-top: 2px solid #0088CC;
+}
+
+/* Header Nav */
+.header-nav {
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0 !important;
+}
+@media (max-width: 48em) {
+	.header-nav {
+		padding-bottom: 0;
+	}
+}

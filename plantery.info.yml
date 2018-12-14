@@ -1,0 +1,43 @@
+#
+# Plantery theme
+#
+# Libraries for theme
+# Jorge L Lopez - ChicagoConnect.Solutions
+# Version 1811.14
+# Copyright 2018
+#
+name: plantery
+description: 'A lightweight twig framework using HTML, CSS, and JS components.'
+type: theme
+package: Custom
+base theme: false
+core: 8.x
+project: 'plantery'
+
+libraries:
+  - plantery/plantery
+  - plantery/bootstrap
+
+regions:
+  page_top: 'Page Top'
+  top_navbar: 'Navigation Bar'
+  primary_menu: 'Primary menu'
+  slider: 'Slider'
+  header: 'Page Header'
+  featured_top: 'Featured top'
+  subheader: 'Page Sub Header (Front page only)'
+  secondary_menu: 'Secondary menu'
+  highlighted: Highlighted
+  content: Content
+  featured_bottom: 'Featured bottom first'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_bottom_left: 'Footer Bottom Left'
+  footer_bottom_right: 'Footer Bottom Right'
+  page_bottom: 'Page Bottom'
+disabled:
+  footer: Footer
+  offcanvas: 'Off Canvas Navigation'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/codeStyles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/css" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/images" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/js" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates/block" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates/layout" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates/menu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates/navigation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates/node" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates/regions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vendor/bootstrap-3.3.7" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/codeStyles" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap-3.3.7" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

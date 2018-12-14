@@ -1,0 +1,46 @@
+<?php
+/**
+ * Implements hook_preprocess_html().
+ *
+ * Plantery theme
+ *
+ * Libraries for theme
+ * Jorge L Lopez - ChicagoConnect.Solutions
+ * Version 1811.14
+ * Copyright 2018
+ *
+ *
+ * Implements hook_system_info_alter().
+ *
+
+function system_system_info_alter(&$info, Extension $file, $type) {
+	// Remove page-top and page-bottom from the blocks UI since they are reserved for
+	// modules to populate from outside the blocks system.
+	if ($type == 'theme') {
+		$info['regions_hidden'][] = 'page_top';
+		$info['regions_hidden'][] = 'page_bottom';
+	}
+}
+*/
+function plantery_preprocess_html(&$variables){
+	// add to classes at html level
+    $variables['attributes']['class'][] = 'twig';
+
+}
+/**
+function plantery_preprocess_region(&$variables){
+	// add to classes at region level
+	//$variables['attributes']['class'][] = 'plantery-region';
+}
+
+function plantery_preprocess_page(&$variables){
+	//add to classes at page level
+	$variables['attributes']['class'][] = 'plantery-page';
+}
+
+function plantery_preprocess_block(&$variables){
+	//Display variables
+	//dpm($variables);
+
+}
+*/

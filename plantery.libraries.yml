@@ -1,0 +1,31 @@
+#
+# Plantery theme
+#
+# Libraries for theme
+# Jorge L Lopez - ChicagoConnect.Solutions
+# Version 1811.14
+# Copyright 2018
+#
+
+plantery:
+  css:
+    theme:
+      css/plantery.css: {}
+      css/octo.css: {}
+  js:
+    js/plantery.js: {}
+
+bootstrap:
+  css:
+    theme:
+      vendor/bootstrap-3.3.7/css/bootstrap.css: {}
+      vendor/bootstrap-3.3.7/css/bootstrap-theme.css: {}
+  js:
+    vendor/bootstrap-3.3.7/js/bootstrap.js: {}
+  dependencies:
+    - core/jquery
+
+  webfonts:
+    css:
+      theme:
+        https://fonts.googleapis.com/css?family=Open+Sans:300,400, 600,700,800|Roboto+Slab: { type: external }
