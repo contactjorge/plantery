@@ -42,19 +42,30 @@
  *
  * @ingroup themeable
  */
-#}
+	{{ page.subheader }}
 
+	{{ page.primary_menu }}
+
+	{{ page.secondary_menu }}
+
+	{{ page.header }}
+
+{% if page.featured_top %}
+	<section class="container">
+		{{ page.featured_top }}
+	</section>
+{% endif %}
+s
+#}
 {{ page.top_navbar }}
 
-{{ page.subheader }}
+{{ page.l2_header }}
 
-{{ page.primary_menu }}
+{{ page.l3_header }}
 
 {{ page.highlighted }}
 
-{{ page.secondary_menu }}
-
-<main role="main" class="container">
+<main id="" role="main" class="container">
 	<a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
 	<article class="row layout-content">
@@ -63,18 +74,48 @@
 
 </main>
 
-{% if page.featured_top %}
-	<section class="container">
-		{{ page.featured_top }}
-	</section>
-{% endif %}
+<section class="container" role="complementary">
+	{{ page.featured_bottom }}
+</section>
 
-{% if page.featured_bottom %}
-	<section class="container layout-featured-bottom" role="complementary">
-		{{ page.featured_bottom }}
-	</section>
-{% endif %}
+<section class="container" role="complementary">
+	{{ page.featured_bottom }}
+</section>
 
-{% if page.footer %}
-	{{ page.footer }}
-{% endif %}
+
+<footer id="footer" role="contentinfo">
+
+	<section class="container main-footer">
+		<div class="row">
+			<div class="col-md-4">
+				{{ page.footer_first }}
+			</div>
+
+			<div class="col-md-4">
+				{{ page.footer_second }}
+			</div>
+
+			<div class="col-md-4">
+				{{ page.footer_third }}
+			</div>
+
+		</div>
+	</section>
+
+	<section class="footer-copyright">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8">
+					{{ page.footer_bottom_left }}
+				</div>
+
+				<div class="col-md-4">
+					{{ page.footer_bottom_right }}
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+</footer>

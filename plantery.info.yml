@@ -21,8 +21,8 @@ libraries:
 regions:
   page_top: 'Page Top'
   top_navbar: 'Navigation Bar'
-  primary_menu: 'Primary menu'
-  slider: 'Slider'
+  l2_header: 'L2 Page Header'
+  l3_header: 'L3 Page Header'
   header: 'Page Header'
   featured_top: 'Featured top'
   subheader: 'Page Sub Header (Front page only)'
@@ -37,6 +37,7 @@ regions:
   footer_bottom_right: 'Footer Bottom Right'
   page_bottom: 'Page Bottom'
 disabled:
+  primary_menu: 'Primary menu'
   footer: Footer
   offcanvas: 'Off Canvas Navigation'
   sidebar_first: 'Sidebar first'
